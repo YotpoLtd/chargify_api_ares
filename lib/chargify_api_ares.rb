@@ -1,6 +1,7 @@
 require 'active_resource'
 require 'chargify_api_ares/config'
 require 'chargify_api_ares/response_helper'
+require 'chargify_api_ares/resources/active_resource_proxy'
 require 'chargify_api_ares/resources/base'
 require 'chargify_api_ares/resources/charge'
 require 'chargify_api_ares/resources/component'
