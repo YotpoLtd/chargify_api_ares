@@ -1,5 +1,5 @@
 module Chargify
-  class Base < ActiveResource::Base
+  class Base < ActiveResourceProxy
     self.format = :xml
 
     def self.element_name
